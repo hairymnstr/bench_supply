@@ -1,0 +1,276 @@
+EESchema Schematic File Version 2
+LIBS:74xx
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dev_boards
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:ftdi
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:parallax
+LIBS:philips
+LIBS:power
+LIBS:regul
+LIBS:rf
+LIBS:siliconi
+LIBS:special
+LIBS:texas
+LIBS:transistors
+LIBS:valves
+LIBS:xilinx
+LIBS:controls-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM555N U?
+U 1 1 530A1C31
+P 5150 2950
+F 0 "U?" H 5150 3050 70  0000 C CNN
+F 1 "LM555N" H 5150 2850 70  0000 C CNN
+F 2 "" H 5150 2950 60  0000 C CNN
+F 3 "" H 5150 2950 60  0000 C CNN
+	1    5150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3050 6700 3050
+Wire Wire Line
+	5950 3050 5950 3450
+Wire Wire Line
+	5950 3450 4350 3450
+Wire Wire Line
+	4350 3450 4350 2850
+Wire Wire Line
+	4350 2850 4450 2850
+$Comp
+L R R?
+U 1 1 530A1DDB
+P 6700 2700
+F 0 "R?" V 6780 2700 50  0000 C CNN
+F 1 "10k" V 6700 2700 50  0000 C CNN
+F 2 "" H 6700 2700 60  0000 C CNN
+F 3 "" H 6700 2700 60  0000 C CNN
+	1    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 530A1DED
+P 6700 3400
+F 0 "R?" V 6780 3400 50  0000 C CNN
+F 1 "10k" V 6700 3400 50  0000 C CNN
+F 2 "" H 6700 3400 60  0000 C CNN
+F 3 "" H 6700 3400 60  0000 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2950 6700 3150
+Connection ~ 5950 3050
+Connection ~ 6700 3050
+Wire Wire Line
+	6700 2450 6700 2350
+Wire Wire Line
+	6700 3650 6700 3750
+$Comp
+L GND #PWR?
+U 1 1 530A1E29
+P 6700 3750
+F 0 "#PWR?" H 6700 3750 30  0001 C CNN
+F 1 "GND" H 6700 3680 30  0001 C CNN
+F 2 "" H 6700 3750 60  0000 C CNN
+F 3 "" H 6700 3750 60  0000 C CNN
+	1    6700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 530A1E3D
+P 6700 2350
+F 0 "#PWR?" H 6700 2440 20  0001 C CNN
+F 1 "+5V" H 6700 2440 30  0000 C CNN
+F 2 "" H 6700 2350 60  0000 C CNN
+F 3 "" H 6700 2350 60  0000 C CNN
+	1    6700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 530A1E5B
+P 3700 2750
+F 0 "R?" V 3780 2750 50  0000 C CNN
+F 1 "1k" V 3700 2750 50  0000 C CNN
+F 2 "" H 3700 2750 60  0000 C CNN
+F 3 "" H 3700 2750 60  0000 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C?
+U 1 1 530A1E6F
+P 3700 3700
+F 0 "C?" H 3750 3800 50  0000 L CNN
+F 1 "10uF" H 3750 3600 50  0000 L CNN
+F 2 "" H 3700 3700 60  0000 C CNN
+F 3 "" H 3700 3700 60  0000 C CNN
+	1    3700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 530A1E8D
+P 3700 4000
+F 0 "#PWR?" H 3700 4000 30  0001 C CNN
+F 1 "GND" H 3700 3930 30  0001 C CNN
+F 2 "" H 3700 4000 60  0000 C CNN
+F 3 "" H 3700 4000 60  0000 C CNN
+	1    3700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 530A1EA1
+P 3700 2400
+F 0 "#PWR?" H 3700 2490 20  0001 C CNN
+F 1 "+5V" H 3700 2490 30  0000 C CNN
+F 2 "" H 3700 2400 60  0000 C CNN
+F 3 "" H 3700 2400 60  0000 C CNN
+	1    3700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2400 3700 2500
+Wire Wire Line
+	3700 3000 3700 3500
+Wire Wire Line
+	3700 3250 4450 3250
+Connection ~ 3700 3250
+Wire Wire Line
+	3700 3900 3700 4000
+$Comp
+L CAPAPOL C?
+U 1 1 530A1EEE
+P 4150 4250
+F 0 "C?" H 4200 4350 50  0000 L CNN
+F 1 "1uF" H 4200 4150 50  0000 L CNN
+F 2 "" H 4150 4250 60  0000 C CNN
+F 3 "" H 4150 4250 60  0000 C CNN
+	1    4150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 530A1F02
+P 4550 3950
+F 0 "SW?" H 4700 4060 50  0000 C CNN
+F 1 "SW_PUSH" H 4550 3870 50  0000 C CNN
+F 2 "" H 4550 3950 60  0000 C CNN
+F 3 "" H 4550 3950 60  0000 C CNN
+	1    4550 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3450 5000 3950
+Connection ~ 5000 3450
+Wire Wire Line
+	3950 3050 4450 3050
+Wire Wire Line
+	4150 3050 4150 3350
+$Comp
+L R R?
+U 1 1 530A1F3D
+P 4150 3600
+F 0 "R?" V 4230 3600 50  0000 C CNN
+F 1 "100k" V 4150 3600 50  0000 C CNN
+F 2 "" H 4150 3600 60  0000 C CNN
+F 3 "" H 4150 3600 60  0000 C CNN
+	1    4150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3850 4150 4050
+Wire Wire Line
+	4250 3950 4150 3950
+Connection ~ 4150 3950
+Wire Wire Line
+	5000 3950 4850 3950
+Wire Wire Line
+	4150 4450 4150 4550
+$Comp
+L GND #PWR?
+U 1 1 530A1FCD
+P 4150 4550
+F 0 "#PWR?" H 4150 4550 30  0001 C CNN
+F 1 "GND" H 4150 4480 30  0001 C CNN
+F 2 "" H 4150 4550 60  0000 C CNN
+F 3 "" H 4150 4550 60  0000 C CNN
+	1    4150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2650 5950 2650
+Wire Wire Line
+	5950 2650 5950 2550
+Wire Wire Line
+	4150 2650 4450 2650
+Wire Wire Line
+	4150 2650 4150 2750
+$Comp
+L GND #PWR?
+U 1 1 530A2023
+P 4150 2750
+F 0 "#PWR?" H 4150 2750 30  0001 C CNN
+F 1 "GND" H 4150 2680 30  0001 C CNN
+F 2 "" H 4150 2750 60  0000 C CNN
+F 3 "" H 4150 2750 60  0000 C CNN
+	1    4150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 530A2055
+P 5950 2550
+F 0 "#PWR?" H 5950 2640 20  0001 C CNN
+F 1 "+5V" H 5950 2640 30  0000 C CNN
+F 2 "" H 5950 2550 60  0000 C CNN
+F 3 "" H 5950 2550 60  0000 C CNN
+	1    5950 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 3050
+Wire Wire Line
+	3950 3050 3950 2300
+Wire Wire Line
+	3950 2300 5200 2300
+Text Label 5200 2300 2    60   ~ 0
+OUTPUT
+NoConn ~ 5850 2850
+NoConn ~ 5850 3250
+$EndSCHEMATC
