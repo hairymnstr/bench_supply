@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Fri 09 May 2014 23:44:00 BST
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sat 10 May 2014 18:45:45 BST
 
 BeginCmp
 TimeStamp = /52E44FB6;
@@ -25,21 +25,21 @@ BeginCmp
 TimeStamp = /52E1BFE4;
 Reference = C4;
 ValeurCmp = 100uF;
-IdModule  = ;
+IdModule  = Nathan_SMD:PANASONIC_F;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E1BFD0;
 Reference = C5;
 ValeurCmp = 100nF;
-IdModule  = ;
+IdModule  = Nathan_SMD:PANASONIC_F;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E1B77A;
 Reference = C6;
 ValeurCmp = 47uF;
-IdModule  = ;
+IdModule  = Nathan_SMD:PANASONIC_D;
 EndCmp
 
 BeginCmp
@@ -53,21 +53,21 @@ BeginCmp
 TimeStamp = /52E45946;
 Reference = C8;
 ValeurCmp = 100uF;
-IdModule  = ;
+IdModule  = Nathan_SMD:PANASONIC_F;
 EndCmp
 
 BeginCmp
 TimeStamp = /5369AEF3;
 Reference = C9;
 ValeurCmp = 1000uF;
-IdModule  = ;
+IdModule  = Capacitors:CP_13x25mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E45982;
 Reference = C10;
 ValeurCmp = 100uF;
-IdModule  = ;
+IdModule  = Nathan_SMD:PANASONIC_F;
 EndCmp
 
 BeginCmp
@@ -89,20 +89,6 @@ TimeStamp = /53684A90;
 Reference = C13;
 ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5368F521;
-Reference = C14;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5368F590;
-Reference = C15;
-ValeurCmp = 10uF;
-IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -246,13 +232,6 @@ IdModule  = SOIC_Packages:SOIC-8_N;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E46CF3;
-Reference = IC7;
-ValeurCmp = OPTO_COUPLER;
-IdModule  = Sockets_DIP:DIP-6__300;
-EndCmp
-
-BeginCmp
 TimeStamp = /536883BE;
 Reference = IC8;
 ValeurCmp = MCP1700-3002E/TT;
@@ -344,6 +323,13 @@ IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
 EndCmp
 
 BeginCmp
+TimeStamp = /536F104B;
+Reference = JP11;
+ValeurCmp = JUMPER;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
 TimeStamp = /52E1B4D5;
 Reference = L1;
 ValeurCmp = 100uH;
@@ -353,7 +339,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E4596E;
 Reference = L2;
-ValeurCmp = 100uH;
+ValeurCmp = 220uH;
 IdModule  = Nathan_SMD:MURATA_4500;
 EndCmp
 
@@ -361,7 +347,7 @@ BeginCmp
 TimeStamp = /5367AFDA;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Nathan_THT:SCREW_TERM;
 EndCmp
 
 BeginCmp
@@ -375,7 +361,7 @@ BeginCmp
 TimeStamp = /5369A627;
 Reference = P3;
 ValeurCmp = DC_JACK;
-IdModule  = ;
+IdModule  = Nathan_THT:DC_JACK_SWC_RAPC712X;
 EndCmp
 
 BeginCmp
@@ -438,21 +424,21 @@ BeginCmp
 TimeStamp = /53687B75;
 Reference = P12;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = Nathan_THT:4MM_SOCKET_PCB;
 EndCmp
 
 BeginCmp
 TimeStamp = /5367BB53;
 Reference = P13;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Nathan_THT:SCREW_TERM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53687BDA;
 Reference = P14;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = Nathan_THT:4MM_SOCKET_PCB;
 EndCmp
 
 BeginCmp
@@ -540,13 +526,6 @@ IdModule  = SMD_Packages:SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /536C363A;
-Reference = Q2;
-ValeurCmp = BC817;
-IdModule  = SMD_Packages:SOT23;
-EndCmp
-
-BeginCmp
 TimeStamp = /5368ACF9;
 Reference = R1;
 ValeurCmp = 10k;
@@ -578,7 +557,7 @@ BeginCmp
 TimeStamp = /52E18905;
 Reference = R5;
 ValeurCmp = 0.1;
-IdModule  = ;
+IdModule  = Nathan_THT:PWR4412-2SCR1000F;
 EndCmp
 
 BeginCmp
@@ -612,20 +591,13 @@ EndCmp
 BeginCmp
 TimeStamp = /53690F93;
 Reference = R10;
-ValeurCmp = 1k;
+ValeurCmp = 180;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53692434;
+TimeStamp = /536F6080;
 Reference = R11;
-ValeurCmp = 1k;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5369300A;
-Reference = R12;
 ValeurCmp = 10k;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
@@ -652,13 +624,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E4471C;
-Reference = R29;
-ValeurCmp = 330;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E570A8;
 Reference = R30;
 ValeurCmp = 1k;
@@ -666,17 +631,10 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E46FC4;
-Reference = R31;
-ValeurCmp = 10k;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E56176;
+TimeStamp = /536ED075;
 Reference = RL1;
-ValeurCmp = RELAY;
-IdModule  = ;
+ValeurCmp = RELAY_DPDT;
+IdModule  = Nathan_THT:RELAY_SCHRAK_2RT_AP;
 EndCmp
 
 BeginCmp
@@ -690,7 +648,7 @@ BeginCmp
 TimeStamp = /53680979;
 Reference = RV2;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = Nathan_THT:ALPS_RK09_VERTICAL;
 EndCmp
 
 BeginCmp
@@ -704,7 +662,7 @@ BeginCmp
 TimeStamp = /52E1892D;
 Reference = RV4;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = Nathan_THT:ALPS_RK09_VERTICAL;
 EndCmp
 
 BeginCmp
@@ -718,21 +676,14 @@ BeginCmp
 TimeStamp = /5369BA63;
 Reference = SW1;
 ValeurCmp = SWITCH_INV_MECH;
-IdModule  = ;
+IdModule  = Nathan_THT:SW_CK_1101MxS3;
 EndCmp
 
 BeginCmp
-TimeStamp = /53690774;
+TimeStamp = /536F7DF0;
 Reference = SW2;
-ValeurCmp = SWITCH_INV_MECH;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5368F460;
-Reference = U1;
-ValeurCmp = LM7812;
-IdModule  = ;
+ValeurCmp = DUAL_SWITCH_INV;
+IdModule  = Nathan_THT:SW_ALPS_SPPH4;
 EndCmp
 
 EndListe
