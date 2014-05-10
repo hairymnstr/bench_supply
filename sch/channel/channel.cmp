@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-05 BZR 4849)-product   date = Thu 08 May 2014 22:56:58 BST
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Fri 09 May 2014 23:44:00 BST
 
 BeginCmp
 TimeStamp = /52E44FB6;
@@ -144,63 +144,63 @@ BeginCmp
 TimeStamp = /52E1CE10;
 Reference = D1;
 ValeurCmp = 1N5818;
-IdModule  = old_smd:SOD123;
+IdModule  = Nathan_SMD:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E1B4C1;
 Reference = D2;
 ValeurCmp = 1N5819;
-IdModule  = old_smd:SOD123;
+IdModule  = Nathan_SMD:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E1B78E;
 Reference = D3;
 ValeurCmp = 1N4001;
-IdModule  = ;
+IdModule  = Nathan_SMD:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E56633;
 Reference = D4;
 ValeurCmp = 1N4001;
-IdModule  = ;
+IdModule  = Nathan_SMD:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /5368EA2F;
 Reference = D5;
 ValeurCmp = 1N4001;
-IdModule  = ;
+IdModule  = Nathan_SMD:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E4595A;
 Reference = D6;
 ValeurCmp = 1N5819;
-IdModule  = old_smd:SOD123;
+IdModule  = Nathan_SMD:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /5367F43A;
 Reference = D7;
 ValeurCmp = 1N4001;
-IdModule  = ;
+IdModule  = Nathan_SMD:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /53689DAA;
 Reference = D8;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53690F21;
 Reference = D9;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -347,14 +347,14 @@ BeginCmp
 TimeStamp = /52E1B4D5;
 Reference = L1;
 ValeurCmp = 100uH;
-IdModule  = ;
+IdModule  = Nathan_SMD:MURATA_4500;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E4596E;
 Reference = L2;
 ValeurCmp = 100uH;
-IdModule  = ;
+IdModule  = Nathan_SMD:MURATA_4500;
 EndCmp
 
 BeginCmp
@@ -368,7 +368,7 @@ BeginCmp
 TimeStamp = /52E56C33;
 Reference = P2;
 ValeurCmp = CONN_3;
-IdModule  = ;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
 EndCmp
 
 BeginCmp
@@ -382,56 +382,56 @@ BeginCmp
 TimeStamp = /53699A72;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = Pin_Arrays:pin_array_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /53699A97;
 Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = Pin_Arrays:pin_array_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /5368718F;
 Reference = P6;
 ValeurCmp = CONN_3;
-IdModule  = ;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /53698CE6;
 Reference = P7;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /536999A7;
 Reference = P8;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = Pin_Arrays:pin_array_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /53699A31;
 Reference = P9;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = Pin_Arrays:pin_array_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /536865E3;
 Reference = P10;
 ValeurCmp = CONN_3;
-IdModule  = ;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /53696E13;
 Reference = P11;
 ValeurCmp = CONN_6;
-IdModule  = ;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x06;
 EndCmp
 
 BeginCmp
@@ -487,21 +487,21 @@ BeginCmp
 TimeStamp = /53679C63;
 Reference = P19;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /53682B07;
 Reference = P20;
 ValeurCmp = CONN_3;
-IdModule  = ;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /53699A89;
 Reference = P21;
 ValeurCmp = CONN_3;
-IdModule  = ;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
 EndCmp
 
 BeginCmp
