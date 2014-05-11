@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sat 10 May 2014 18:45:45 BST
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sun 11 May 2014 16:31:56 BST
 
 BeginCmp
 TimeStamp = /52E44FB6;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /52E1BFD0;
 Reference = C5;
 ValeurCmp = 100nF;
-IdModule  = Nathan_SMD:PANASONIC_F;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -57,7 +57,7 @@ IdModule  = Nathan_SMD:PANASONIC_F;
 EndCmp
 
 BeginCmp
-TimeStamp = /5369AEF3;
+TimeStamp = /537057C1;
 Reference = C9;
 ValeurCmp = 1000uF;
 IdModule  = Capacitors:CP_13x25mm;
@@ -74,7 +74,7 @@ BeginCmp
 TimeStamp = /5368EAB7;
 Reference = C11;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SM0805;
+IdModule  = Nathan_SMD:PANASONIC_B;
 EndCmp
 
 BeginCmp
@@ -281,10 +281,10 @@ IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /5369C701;
+TimeStamp = /537057DE;
 Reference = JP5;
 ValeurCmp = JUMPER;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /5369152E;
 Reference = JP7;
 ValeurCmp = JUMPER;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -326,7 +326,49 @@ BeginCmp
 TimeStamp = /536F104B;
 Reference = JP11;
 ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F62C9;
+Reference = JP12;
+ValeurCmp = JUMPER;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /53708877;
+Reference = JP13;
+ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53708A07;
+Reference = JP14;
+ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537074B5;
+Reference = JP15;
+ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537075BE;
+Reference = JP16;
+ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5370632B;
+Reference = JP17;
+ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -344,7 +386,7 @@ IdModule  = Nathan_SMD:MURATA_4500;
 EndCmp
 
 BeginCmp
-TimeStamp = /5367AFDA;
+TimeStamp = /5370579A;
 Reference = P1;
 ValeurCmp = CONN_2;
 IdModule  = Nathan_THT:SCREW_TERM;
@@ -358,7 +400,7 @@ IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
 EndCmp
 
 BeginCmp
-TimeStamp = /5369A627;
+TimeStamp = /537057B0;
 Reference = P3;
 ValeurCmp = DC_JACK;
 IdModule  = Nathan_THT:DC_JACK_SWC_RAPC712X;
@@ -368,21 +410,21 @@ BeginCmp
 TimeStamp = /53699A72;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = Nathan_THT:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /53699A97;
 Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = Nathan_THT:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /5368718F;
 Reference = P6;
 ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
+IdModule  = Nathan_THT:MOLEX_KK_3;
 EndCmp
 
 BeginCmp
@@ -396,21 +438,21 @@ BeginCmp
 TimeStamp = /536999A7;
 Reference = P8;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = Nathan_THT:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /53699A31;
 Reference = P9;
 ValeurCmp = CONN_1;
-IdModule  = Pin_Arrays:pin_array_1x01;
+IdModule  = Nathan_THT:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /536865E3;
 Reference = P10;
 ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
+IdModule  = Nathan_THT:MOLEX_KK_3;
 EndCmp
 
 BeginCmp
@@ -473,49 +515,7 @@ BeginCmp
 TimeStamp = /53679C63;
 Reference = P19;
 ValeurCmp = CONN_5;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /53682B07;
-Reference = P20;
-ValeurCmp = CONN_3;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /53699A89;
-Reference = P21;
-ValeurCmp = CONN_3;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /536803C0;
-Reference = P22;
-ValeurCmp = CONN_1;
-IdModule  = Mounting_Holes:MountingHole_3-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /536803C6;
-Reference = P23;
-ValeurCmp = CONN_1;
-IdModule  = Mounting_Holes:MountingHole_3-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /536803CC;
-Reference = P24;
-ValeurCmp = CONN_1;
-IdModule  = Mounting_Holes:MountingHole_3-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /536803D2;
-Reference = P25;
-ValeurCmp = CONN_1;
-IdModule  = Mounting_Holes:MountingHole_3-5mm;
+IdModule  = Nathan_THT:CUSTOM_8X7SEG_DISPLAY;
 EndCmp
 
 BeginCmp
@@ -645,7 +645,7 @@ IdModule  = Potentiometers:Potentiometer_Bourns_3296X_3-8Zoll_Inline_ScrewFront;
 EndCmp
 
 BeginCmp
-TimeStamp = /53680979;
+TimeStamp = /53700003;
 Reference = RV2;
 ValeurCmp = 10k;
 IdModule  = Nathan_THT:ALPS_RK09_VERTICAL;
@@ -659,7 +659,7 @@ IdModule  = Potentiometers:Potentiometer_Bourns_3296X_3-8Zoll_Inline_ScrewFront;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E1892D;
+TimeStamp = /537007C1;
 Reference = RV4;
 ValeurCmp = 10k;
 IdModule  = Nathan_THT:ALPS_RK09_VERTICAL;
@@ -673,7 +673,7 @@ IdModule  = Potentiometers:Potentiometer_Bourns_3296X_3-8Zoll_Inline_ScrewFront;
 EndCmp
 
 BeginCmp
-TimeStamp = /5369BA63;
+TimeStamp = /537057CE;
 Reference = SW1;
 ValeurCmp = SWITCH_INV_MECH;
 IdModule  = Nathan_THT:SW_CK_1101MxS3;
