@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sun 11 May 2014 16:31:56 BST
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sun 11 May 2014 21:33:42 BST
 
 BeginCmp
 TimeStamp = /52E44FB6;
@@ -396,7 +396,7 @@ BeginCmp
 TimeStamp = /52E56C33;
 Reference = P2;
 ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
+IdModule  = Nathan_THT:MOLEX_KK_3;
 EndCmp
 
 BeginCmp
