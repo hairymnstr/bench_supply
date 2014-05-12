@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Mon 12 May 2014 22:08:51 BST
+
+BeginCmp
+TimeStamp = /53712D36;
+Reference = AFF1;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5371306A;
+Reference = AFF2;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5371316C;
+Reference = AFF3;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5371319C;
+Reference = AFF4;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53712FA9;
+Reference = AFF5;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53713082;
+Reference = AFF6;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53713184;
+Reference = AFF7;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /537131B4;
+Reference = AFF8;
+ValeurCmp = 7SEGMENTS;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53713CBE;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5371244B;
+Reference = IC1;
+ValeurCmp = MAX7219;
+IdModule  = SMD_Packages:SOIC24-WIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = /537141E2;
+Reference = P1;
+ValeurCmp = INPUT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /537157FE;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /537158D1;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /537158FC;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53715919;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /537142A9;
+Reference = P6;
+ValeurCmp = OUTPUT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /537134BC;
+Reference = R1;
+ValeurCmp = 27k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+EndListe
