@@ -1,59 +1,59 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Mon 12 May 2014 22:08:51 BST
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Tue 13 May 2014 20:29:44 BST
 
 BeginCmp
 TimeStamp = /53712D36;
 Reference = AFF1;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
 TimeStamp = /5371306A;
 Reference = AFF2;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
 TimeStamp = /5371316C;
 Reference = AFF3;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
 TimeStamp = /5371319C;
 Reference = AFF4;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53712FA9;
 Reference = AFF5;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53713082;
 Reference = AFF6;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
 TimeStamp = /53713184;
 Reference = AFF7;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
 TimeStamp = /537131B4;
 Reference = AFF8;
 ValeurCmp = 7SEGMENTS;
-IdModule  = ;
+IdModule  = Nathan_THT:7SEGM_LED_0_5_INCH;
 EndCmp
 
 BeginCmp
@@ -74,7 +74,7 @@ BeginCmp
 TimeStamp = /537141E2;
 Reference = P1;
 ValeurCmp = INPUT;
-IdModule  = ;
+IdModule  = Nathan_THT:MOLEX_KK_5;
 EndCmp
 
 BeginCmp
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /537142A9;
 Reference = P6;
 ValeurCmp = OUTPUT;
-IdModule  = ;
+IdModule  = Nathan_THT:MOLEX_KK_5;
 EndCmp
 
 BeginCmp
