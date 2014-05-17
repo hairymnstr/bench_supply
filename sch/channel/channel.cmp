@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sun 11 May 2014 21:33:42 BST
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sat 17 May 2014 17:35:28 BST
 
 BeginCmp
 TimeStamp = /52E44FB6;
@@ -232,6 +232,13 @@ IdModule  = SOIC_Packages:SOIC-8_N;
 EndCmp
 
 BeginCmp
+TimeStamp = /5377964D;
+Reference = IC7;
+ValeurCmp = L200;
+IdModule  = Nathan_THT:HSK_AAVID_6398BG;
+EndCmp
+
+BeginCmp
 TimeStamp = /536883BE;
 Reference = IC8;
 ValeurCmp = MCP1700-3002E/TT;
@@ -431,7 +438,7 @@ BeginCmp
 TimeStamp = /53698CE6;
 Reference = P7;
 ValeurCmp = CONN_5;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
+IdModule  = Nathan_THT:MOLEX_KK_5;
 EndCmp
 
 BeginCmp
@@ -676,7 +683,7 @@ BeginCmp
 TimeStamp = /537057CE;
 Reference = SW1;
 ValeurCmp = SWITCH_INV_MECH;
-IdModule  = Nathan_THT:SW_CK_1101MxS3;
+IdModule  = Nathan_THT:SW_TE_GEMINI_A_RA;
 EndCmp
 
 BeginCmp
