@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sat 17 May 2014 17:35:28 BST
+Cmp-Mod V01 Created by Cvpcb (2014-05-09 BZR 4859)-product   date = Sat 17 May 2014 23:30:09 BST
 
 BeginCmp
 TimeStamp = /52E44FB6;
@@ -523,6 +523,27 @@ TimeStamp = /53679C63;
 Reference = P19;
 ValeurCmp = CONN_5;
 IdModule  = Nathan_THT:CUSTOM_8X7SEG_DISPLAY;
+EndCmp
+
+BeginCmp
+TimeStamp = /5377EAD3;
+Reference = P20;
+ValeurCmp = CONN_1;
+IdModule  = Nathan_THT:TEST_POINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5377EBC6;
+Reference = P21;
+ValeurCmp = CONN_1;
+IdModule  = Nathan_THT:TEST_POINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5377EBDF;
+Reference = P22;
+ValeurCmp = CONN_1;
+IdModule  = Nathan_THT:TEST_POINT;
 EndCmp
 
 BeginCmp
