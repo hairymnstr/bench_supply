@@ -1,4 +1,4 @@
-update=Tue 13 May 2014 22:21:03 BST
+update=Sat 17 May 2014 12:02:30 BST
 version=1
 last_client=kicad
 [cvpcb]
@@ -50,7 +50,7 @@ version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=display.net
 UseCmpFile=1
 PadDrill=0.6
 PadDrillOvalY=0.6
